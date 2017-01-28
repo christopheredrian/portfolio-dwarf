@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chris's portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/dwarf.css">
+    <style>
+        * {
+            font-family: 'Roboto', sans-serif;
+            word-spacing: 1.7px;
+            letter-spacing: 0.8px;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            color: #34495e;
+        }
+        
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        #work {
+            padding-top: 2%;
+        }
+        
+        article {
+            /*Shadows */
+            /*-webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);*/
+            /*border-radius: 3px;*/
+            margin-top: 5%;
+        }
+        /* TYPOGRAPHY */
+        
+        #skills {
+            line-height: 1.7em;
+        }
+        #skills h3{
+            font-size: 1.1em;
+        }
+        
+        h2.title {
+            margin-bottom: 10%;
+            padding: 4% 0;
+            border-bottom: 1px solid rgba(52, 152, 219, 1.0);
+        }
+        
+        h3.secondary-title {
+            font-size: 1.4em;
+        }
+        
+        h4.date {
+            margin: 5% 0;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            color: rgba(22, 160, 133, 1.0);
+        }
+        /* Navigation */
+        
+        .nav-right {
+            padding-right: 100px;
+        }
+        
+        nav ul.nav {
+            background-color: rgba(52, 152, 219, 0.83);
+        }
+        
+        .nav li a:hover {
+            background-color: rgba(41, 128, 185, 1.0);
+        }
+        /* ICONS */
+        
+        .icon,
+        icon:before {
+            -webkit-filter: opacity(62%);
+            filter: opacity(62%);
+        }
+        /* Footer */
+        
+        footer {
+            background-color: rgba(52, 152, 219, 1);
+            position: static;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 2% 0;
+            margin-top: 10%;
+            font-size: 1.2em;
+            color: white;
+        }
+        
+        footer img {
+            -webkit-filter: grayscale(90%);
+            filter: grayscale(90%);
+            height: 26px;
+            width: 26px;
+        }
+        
+        footer img:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            height: 29px;
+            width: 29px;
+        }
+        /* Media Queries */
+        
+        @media only screen and (max-width: 768px) {
+            #basic-info {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav nav-fixed nav-right">
+            <li class="brand"><a href="">Christopher Espiritu</a></li>
+            <li class=""><a href=""><i class="icon"></i></a></li>
+            <li class="hide-small"><a href="#portfolio">Portfolio</a></li>
+            <li class="hide-small"><a href="#training">Training</a></li>
+            <li class="hide-small"><a href="#education">Education</a></li>
+            <li class="hide-small"><a href="#work">Work Experience</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <article class="col-2">
+                <div id="basic-info">
+                    <img class="img-responsive" src="images/profile.jpeg" alt="My picture">
+                    <p><strong>Christopher Edrian L. Espiritu</strong></p>
+                    <p><i class="icon icon-work"></i>Software Developer</p>
+                    <p><i class="icon icon-home"></i>Angeles City, Pampanga</p>
+                    <p><i class="icon icon-mail"></i>christopheredrian@gmail.com</p>
+                    <p><i class="icon icon-contact"></i>09760023212</p>
+                    <hr>
+                </div>
+                <div id="skills">
+                    <h2><i class="icon icon-skills"></i>Skills</h2>
+                    <h3>Programming Languages and Frameworks</h3>
+                    <ul>
+                        <li><strong>Fluent: </strong>
+                            <ul>
+                                <li> JavaScript (using jQuery)</li>
+                                <li>Java SE (JavaFX, Swing, JDBC, JUnit)</li>
+                                <li>HTML</li>
+                                <li>CSS (Bootstrap, Purecss)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Conversational: </strong>
+                            <ul>
+                                <li>SQL(MySQL, SQLite)</li>
+                                <li> Selenium (WebDriver, SeleniumIDE)</li>
+                                <li>Linux Command Line</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tourist: </strong>
+                            <ul>
+                                <li>JavaScript (Node.js)</li>
+                                <li>Php</li>
+                                <li>Bash</li>
+                                <li>R Programming</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><strong>SCM: </strong> Git, SVN</p>
+                    <p><strong>Tools: </strong> Visual Studio Code, Codepen, Netbeans, Eclipse, Sublime Text, LAMP
+                    </p>
+                </div>
+            </article>
+            <div id="work" class="col-4">
+                <article class="col-6 work">
+                    <h2 class="title"><i class="icon icon-work icon-md"></i>Work Experience</h2>
+                    <!-- Work Experience-->
+                    <h3 class="secondary-title">Security Escort / 2MATL LLC.</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>May 2015 - May 2016, Hartsfield-Jackson International Airport</h4>
+                    <p class="description">
+                        Responsible for assuring the security of the Hartsfield-Jackson International Airport while escorting non-badge personnel
+                        into the tarmac of the airport using an authorized car by the airport officials.
+                    </p>
+                    <h3 class="secondary-title">Lead Cashier / Kroger</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>November 2015 - May 2016, Duluth, Georgia</h4>
+                    <p class="description">
+                        Received and processed payments by cash, check, credit card and automatic debit, and provided information to customers and
+                        guests, Schedules tasks of courtesy clerks, Gives breaks to fuel clerks and self-checkout cashiers.
+                    </p>
+                </article>
+                <article id="education" class="col-6 education">
+                    <h2 class="title"><i class="icon icon-education icon-md"></i>Education</h2>
+                    <!-- Educational Background -->
+                    <h3 class="secondary-title">Saint Louis University</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>2011 - 2018, Baguio City</h4>
+                    <p class="description">
+                        Bachelors Degree in Information Technology
+                    </p>
+                    <h3 class="secondary-title">Chevalier School</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>2007-2011, Angeles City</h4>
+                    <p class="description">
+                        Secondary Education
+                    </p>
+                </article>
+                <article id="training" class="col-6 online-training">
+                    <!-- Online Training-->
+                    <h2 class="title"><i class="icon icon-education icon-md"></i>Online Training</h2>
+                    <h3 class="secondary-title">FreeCodeCamp</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>January 2017 - PRESENT</h4>
+                    <p class="description">
+                        Currently finishing to front-end course. Notable finished projects are: Random Quote Generator, Weather App (OpenWeather
+                        API), Wikipedia Viewer (Wikipedia API), Calculator app and TwitchTV (TwitchTV API)
+                    </p>
+                    <p>Course Projects: <a target="_blank" href="http://codepen.io/christopheredrian/">
+                    codepen.io/christopheredrian</a></p>
+                    <p>Course Progress: <a target="_blank" href="https://www.freecodecamp.com/christopheredrian">
+                    freecodecamp.com/christopheredrian</a>
+                    </p>
+                    <h3 class="secondary-title">CodeSchool</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>JULY 2015 - NOVEMBER 2015</h4>
+                    <p class="description">
+                        Learned JavaScript, JS Best Practices, jQuery, Basics of Node.js, and ES2015
+                    </p>
+                    <p>Course Progress: <a target="_blank" href="https://www.codeschool.com/users/christopheredrian"> 
+                    codeschool.com/christopheredrian</a></p>
+                    <h3 class="secondary-title">Team Treehouse</h3>
+                    <h4 class="date"><i class="icon icon-calendar"></i>FEBRUARY 2013 - MAY 2013</h4>
+                    <p class="description">
+                        Learned HTML, CSS, JavaScript, jQuery and the Linux Terminal
+                    </p>
+                    <p>Course Progress: <a target="_blank" href="https://teamtreehouse.com/christopheredrianespiritu"> 
+                    teamtreehouse.com/christopheredrianespiritu</a></p>
+                </article>
+                <article id="portfolio" class="col-6">
+                    <h2 class="title"><i class="icon icon-skills"></i>Portfolio/Selected Works</h2>
+                    <div class="row portfolio-item">
+                        <div class="col-4">
+                            <h2>Calculator Application</h2>
+                            <p>A simple calculator implemented using HTML, CSS and JavaScript</p>
+                            <span>Demo via Codepen: </span>
+                            <a target="_blank" href="http://codepen.io/christopheredrian/full/bgoeaB/">
+                            Calculator App
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="images/portfolio/calculator.png" target="_blank">
+                                <img class="img-responsive" src="images/portfolio/calculator.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row portfolio-item">
+                        <div class="col-4">
+                            <h2>TwitchTV Users Viewer</h2>
+                            <p>An app that uses the twitch.tv json api to display selected users who are online. Techonologies
+                                used with this app include HTML, CSS, JavaScript, jQuery (for AJAX calls).</p>
+                            <span>Demo via Codepen: </span>
+                            <a target="_blank" href="http://codepen.io/christopheredrian/full/apBONe/">
+                            TwitchTV Users Viewer
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="images/portfolio/twitchtv.png" target="_blank">
+                                <img class="img-responsive" src="images/portfolio/twitchtv.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row portfolio-item">
+                        <div class="col-4">
+                            <h2>Wikipedia Search Engine</h2>
+                            <p>This uses the Wikipedia API to search for relevant wiki page using the input of a user. This
+                                app also is my playground for an autocomplete feature with the help of json.
+                            </p>
+                            <span>Demo via Codepen: </span>
+                            <a target="_blank" href="http://codepen.io/christopheredrian/full/WRGOBx/">
+                            Wikipedia Search Engine
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="images/portfolio/wiki.png" target="_blank"><img class="img-responsive" src="images/portfolio/wiki.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row portfolio-item">
+                        <div class="col-4">
+                            <h2>Weather App</h2>
+                            <p>Uses the OpenWeatherAPI to show the weather of current approximate location. If location given
+                                is different from current, the user can specify the location.
+                            </p>
+                            <span>Demo via Codepen: </span>
+                            <a target="_blank" href="http://codepen.io/christopheredrian/full/QdKbQY/">
+                            Wikipedia Search Engine
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="images/portfolio/weather.png" target="_blank"><img class="img-responsive" src="images/portfolio/weather.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="row portfolio-item">
+                        <div class="col-4">
+                            <h2>Programming Quotes App</h2>
+                            <p>This app uses ajax to get random quotes from a public api. It also has a tweet button in cases
+                                where users want to tweet the quote.
+                            </p>
+                            <span>Demo via Codepen: </span>
+                            <a target="_blank" href="http://codepen.io/christopheredrian/full/RKGwbB/">
+                            Quotes App
+                            </a>
+                        </div>
+                        <div class="col-2">
+                            <a href="images/portfolio/quotes.png" target="_blank"><img class="img-responsive" src="images/portfolio/quotes.png" alt=""></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center">
+        <p> Find me on social media</p>
+        <p>
+            <a target="_blank" href="https://www.linkedin.com/in/christopher-espiritu"><img class="img-circle" src="images/icons/linkedin.png" alt=""></a>
+            <a target="_blank" href="https://github.com/christopheredrian/"><img class="img-circle" src="images/icons/github.png" alt=""></a>
+            <a target="_blank" href="https://twitter.com/kkilobytes"><img class="img-circle" src="images/icons/twitter.png" alt=""></a>
+            <a target="_blank" href="https://fb.com/noitaxaler"><img class="img-circle" src="images/icons/fb.png" alt=""></a>
+        </p>
+        <p>Built with <a href="https://github.com/christopheredrian/dwarf.css">dwarf.css</a></p>
+    </footer>
+</body>
+
+</html>
