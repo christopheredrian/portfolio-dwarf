@@ -246,38 +246,38 @@
     }
     
     .icon-calendar:before {
-        background: url('../images/icons/calendar.png');
+        background: url('images/icons/calendar.png');
         background-size: cover;
     }
     
     .icon-work:before {
-        background: url('../images/icons/work.png');
+        background: url('images/icons/work.png');
         background-size: cover;
     }
     
     .icon-home:before {
-        background: url('../images/icons/home.png');
+        background: url('images/icons/home.png');
         background-size: cover;
     }
     
     .icon-mail:before {
-        background: url('../images/icons/mail.png');
+        background: url('images/icons/mail.png');
         background-size: cover;
     }
     
     .icon-contact:before {
-        background: url('../images/icons/contact.png');
+        background: url('images/icons/contact.png');
         height: 27px;
         background-size: cover;
     }
     
     .icon-education:before {
-        background: url('../images/icons/education.png');
+        background: url('images/icons/education.png');
         background-size: cover;
     }
     
     .icon-skills:before {
-        background: url('../images/icons/skills.png');
+        background: url('images/icons/skills.png');
         background-size: cover;
     }
     /* Medium size icons */
