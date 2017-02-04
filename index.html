@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="styles/dwarf.css">
     <link rel="stylesheet" href="styles/style.css">
     <style>
-     
+
     </style>
 </head>
 
 <body>
-    <nav>
-        <ul class="nav nav-fixed nav-right">
-            <li class="brand"><a href="">Christopher Espiritu</a></li>
-            <li class=""><a href=""><i class="icon"></i></a></li>
-            <li class="hide-small"><a href="#portfolio">Portfolio</a></li>
-            <li class="hide-small"><a href="#training">Training</a></li>
-            <li class="hide-small"><a href="#education">Education</a></li>
-            <li class="hide-small"><a href="#work">Work Experience</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul class="nav nav-fixed nav-right">
+                <li class="brand"><a href="">Christopher Espiritu</a></li>
+                <li class=""><a href=""><i class="icon"></i></a></li>
+                <li class="hide-small"><a href="#portfolio">Portfolio</a></li>
+                <li class="hide-small"><a href="#training">Training</a></li>
+                <li class="hide-small"><a href="#education">Education</a></li>
+                <li class="hide-small"><a href="#work">Work Experience</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
         <div class="row">
             <article class="col-2">
@@ -68,8 +70,8 @@
                     </p>
                 </div>
             </article>
-            <div id="work" class="col-4">
-                <article class="col-6 work">
+            <div class="col-4">
+                <article id="work" class="col-6 work">
                     <h2 class="title"><i class="icon icon-work icon-md"></i>Work Experience</h2>
                     <!-- Work Experience-->
                     <h3 class="secondary-title">Security Escort / 2MATL LLC.</h3>
@@ -130,7 +132,7 @@
                 </article>
                 <article id="portfolio" class="col-6">
                     <h2 class="title"><i class="icon icon-skills"></i>Portfolio/Selected Works</h2>
-                    <div class="row portfolio-item">
+                    <section class="row portfolio-item">
                         <div class="col-4">
                             <h2>Calculator Application</h2>
                             <p>A simple calculator implemented using HTML, CSS and JavaScript</p>
@@ -144,8 +146,8 @@
                                 <img class="img-responsive" src="styles/images/portfolio/calculator.png" alt="">
                             </a>
                         </div>
-                    </div>
-                    <div class="row portfolio-item">
+                    </section>
+                    <section class="row portfolio-item">
                         <div class="col-4">
                             <h2>TwitchTV Users Viewer</h2>
                             <p>An app that uses the twitch.tv json api to display selected users who are online. Techonologies
@@ -160,8 +162,8 @@
                                 <img class="img-responsive" src="styles/images/portfolio/twitchtv.png" alt="">
                             </a>
                         </div>
-                    </div>
-                    <div class="row portfolio-item">
+                    </section>
+                    <section class="row portfolio-item">
                         <div class="col-4">
                             <h2>Wikipedia Search Engine</h2>
                             <p>This uses the Wikipedia API to search for relevant wiki page using the input of a user. This
@@ -175,8 +177,8 @@
                         <div class="col-2">
                             <a href="styles/images/portfolio/wiki.png" target="_blank"><img class="img-responsive" src="styles/images/portfolio/wiki.png" alt=""></a>
                         </div>
-                    </div>
-                    <div class="row portfolio-item">
+                    </section>
+                    <section class="row portfolio-item">
                         <div class="col-4">
                             <h2>Weather App</h2>
                             <p>Uses the OpenWeatherAPI to show the weather of current approximate location. If location given
@@ -190,8 +192,8 @@
                         <div class="col-2">
                             <a href="styles/images/portfolio/weather.png" target="_blank"><img class="img-responsive" src="styles/images/portfolio/weather.png" alt=""></a>
                         </div>
-                    </div>
-                    <div class="row portfolio-item">
+                    </section>
+                    <section class="row portfolio-item">
                         <div class="col-4">
                             <h2>Programming Quotes App</h2>
                             <p>This app uses ajax to get random quotes from a public api. It also has a tweet button in cases
@@ -205,7 +207,7 @@
                         <div class="col-2">
                             <a href="styles/images/portfolio/quotes.png" target="_blank"><img class="img-responsive" src="styles/images/portfolio/quotes.png" alt=""></a>
                         </div>
-                    </div>
+                    </section>
                 </article>
             </div>
         </div>
