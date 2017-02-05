@@ -1,0 +1,108 @@
+   * {
+            font-family: 'Roboto', sans-serif;
+            word-spacing: 1.7px;
+            letter-spacing: 0.8px;
+        }
+        
+        body {
+            padding: 0;
+            margin: 0;
+            color: #34495e;
+        }
+        
+        img {
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        #work {
+            padding-top: 2%;
+        }
+        
+        article {
+            /*Shadows */
+            /*-webkit-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);
+            -moz-box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.15);*/
+            /*border-radius: 3px;*/
+            margin-top: 5%;
+        }
+        /* TYPOGRAPHY */
+        
+        #skills {
+            line-height: 1.7em;
+        }
+        #skills h3{
+            font-size: 1.1em;
+        }
+        
+        h2.title {
+            margin-bottom: 10%;
+            padding: 4% 0;
+            border-bottom: 1px solid rgba(52, 152, 219, 1.0);
+        }
+        
+        h3.secondary-title {
+            font-size: 1.4em;
+        }
+        
+        h4.date {
+            margin: 5% 0;
+            text-transform: uppercase;
+            font-size: 0.85em;
+            color: rgba(22, 160, 133, 1.0);
+        }
+        /* Navigation */
+        
+        .nav-right {
+            padding-right: 100px;
+        }
+        
+        nav ul.nav {
+            background-color: rgba(52, 152, 219, 0.83);
+        }
+        
+        .nav li a:hover {
+            background-color: rgba(41, 128, 185, 1.0);
+        }
+        /* ICONS */
+        
+        .icon,
+        icon:before {
+            -webkit-filter: opacity(62%);
+            filter: opacity(62%);
+        }
+        /* Footer */
+        
+        footer {
+            background-color: rgba(52, 152, 219, 1);
+            position: static;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 2% 0;
+            margin-top: 10%;
+            font-size: 1.2em;
+            color: white;
+        }
+        
+        footer img {
+            -webkit-filter: grayscale(90%);
+            filter: grayscale(90%);
+            height: 26px;
+            width: 26px;
+        }
+        
+        footer img:hover {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+            height: 29px;
+            width: 29px;
+        }
+        /* Media Queries */
+        
+        @media only screen and (max-width: 768px) {
+            #basic-info {
+                text-align: center;
+            }
+        }
